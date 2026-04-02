@@ -1,20 +1,18 @@
-<<<<<<< HEAD
-# Business Process Simulation & Optimization
-### BPI 2017 — Loan Application Process
+# Business Process Simulation & Optimization (TUM Project)
+### BPI Challenge 2017 — Loan Application Process
 
-A data-driven discrete-event simulation (DES) of the BPI 2017 loan
-application process, extended with six resource allocation methods and a
-full evaluation framework.
+This repository contains a university project (TUM) implementing a data-driven **discrete-event simulation (DES)** of the BPI 2017 loan application process, extended with **resource allocation methods** and an **evaluation framework**.
 
 ---
 
-## Prerequisites
+## Requirements
+- Python **3.10+**
+- pip
 
-Python **3.10+** is required. Install all dependencies:
+Install dependencies:
 
 ```bash
 pip install pandas numpy scipy scikit-learn joblib matplotlib lxml pm4py lightgbm
-```
 
 For the Deep RL method (optional):
 ```bash
